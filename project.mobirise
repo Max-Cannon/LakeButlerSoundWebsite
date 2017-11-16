@@ -1,0 +1,609 @@
+{
+  "settings": {
+    "name": "Lake Butler Sound Landing Page - 08092017",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "unicore",
+      "title": "Unicore",
+      "styling": {
+        "primaryColor": "#ff9800",
+        "successColor": "#7ac673",
+        "infoColor": "#27aae0",
+        "warningColor": "#faaf40",
+        "dangerColor": "#f97352",
+        "titleFont": "Raleway",
+        "textFont": "Roboto",
+        "isSquareButtons": false
+      }
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 33,
+    "versionPublish": "3.12.1",
+    "favicon": "@PROJECT_PATH@/assets/images/lake-butler-sound-logo-transparent-main-128x174.png",
+    "noImageResize": "",
+    "google-analytics": "",
+    "cookiesAlert": ""
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header12",
+          "_anchor": "header12-5",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/19.jpg",
+            "bgColor": "#ffc107",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.85,
+            "overlayColor": "#000",
+            "showTitle": false,
+            "showText": false,
+            "showButtons": false,
+            "showMedia": true
+          },
+          "title": "Get the perfect<br>App Landing Page",
+          "text": "Nam tellus turpis blandit et ligula vel lacinia massa sit amet minus fugit in ipsum semper euismod massa auctor magna eget nunc iaculis nunc.",
+          "buttons": "<a class=\"mbr-title-font mbr-primary-bgColor\" data-app-btn=\"true\" href=\"#\"><i class=\"fa fa-mobile\"></i><span class=\"mbr-text-font\">Available at</span>AppStore</a><a class=\"mbr-title-font mbr-primary-bgColor\" data-app-btn=\"true\" href=\"#\"><i class=\"fa fa-google\"></i> <span class=\"mbr-text-font\">Get the app for</span>Googleplay</a>",
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive center-block",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/lbs-new-ptransparent-logo22-1400x1368.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#795548",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-family": "'Roboto', sans-serif"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#795548"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-0",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "1",
+            "fontName": {
+              "name": "Roboto",
+              "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "css": "'Roboto', sans-serif"
+            },
+            "fontColor": "#795548",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/lbs-new-ptransparent-logo-447x128.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form1-a\">CONTACT US</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://www.lakebutlersound.net/\" aria-expanded=\"true\" target=\"_blank\">resident log in</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"https://mobirise.com/\">Download</a></li>"
+        },
+        {
+          "alias": "wowslider",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "wowslider",
+          "_params": {
+            "customSize": true,
+            "customWidth": "1920",
+            "customHeight": "1080",
+            "size": "1024x576",
+            "slides": [
+              {
+                "src": "@PROJECT_PATH@/assets/images/lake-butler-sound-900x600-4-2000x1333.png",
+                "active": true,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/lake-butler-sound-900x600-3-1920x1080.jpg",
+                "title": "title 1",
+                "text": "text 1",
+                "tooltip": "@PROJECT_PATH@/assets/images/lake-butler-sound-900x600-3-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/lbs-lakeside-gazebo-2000x1234.png",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/lbs-lakeside-gazebo-1920x1080.jpg",
+                "title": "",
+                "text": "FGFGDGDFD",
+                "tooltip": "@PROJECT_PATH@/assets/images/lbs-lakeside-gazebo-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/wp_20160220_17_34_32_pro-2000x1125.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/wp-20160220-17-34-32-pro-1920x1080.jpg",
+                "title": "title 3",
+                "text": "text 3",
+                "tooltip": "@PROJECT_PATH@/assets/images/wp-20160220-17-34-32-pro-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/lake-butler-sound-900x600-1-2000x1333.png",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/lake-butler-sound-900x600-1920x1080.jpg",
+                "title": "title 1",
+                "text": "text 1",
+                "tooltip": "@PROJECT_PATH@/assets/images/lake-butler-sound-900x600-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/lake-butler-sound-900x600-3-2000x1333.png",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/lake-butler-sound-900x600-2-1920x1080.jpg",
+                "title": "title 1",
+                "text": "text 1",
+                "tooltip": "@PROJECT_PATH@/assets/images/lake-butler-sound-900x600-2-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/wp_20160220_18_33_06_pro-2000x1125.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/wp-20160220-18-33-06-pro-1920x1080.jpg",
+                "title": "title 1",
+                "text": "text 1",
+                "tooltip": "@PROJECT_PATH@/assets/images/wp-20160220-18-33-06-pro-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/lake-butler-sound-900x600-2-2000x1333.png",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/lake-butler-sound-900x600-1-1920x1080.jpg",
+                "title": "title 1",
+                "text": "text 1",
+                "tooltip": "@PROJECT_PATH@/assets/images/lake-butler-sound-900x600-1-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/lake-butler-sound-900x600-1-2000x1333.png",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/lake-butler-sound-900x600-1920x1080.jpg",
+                "title": "title 1",
+                "text": "text 1",
+                "tooltip": "@PROJECT_PATH@/assets/images/lake-butler-sound-900x600-85x48.png"
+              }
+            ],
+            "theme": "boundary",
+            "bgColor": "#ffffff",
+            "animType": "domino",
+            "autoplay": true,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "fullScreen": true,
+            "showBullets": false,
+            "timeout": 2,
+            "duration": 2,
+            "height": "1080",
+            "width": "1920",
+            "responsive": "3",
+            "showCaptions": false,
+            "captionsEffect": "slide",
+            "hideControls": false
+          },
+          "_anchor": "wowslider-1",
+          "articleLayout": false
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "parallax1",
+          "_styles": {
+            "H4": {
+              "color": "#a8872b"
+            },
+            "P": {
+              "color": "#a8872b"
+            }
+          },
+          "_anchor": "parallax1-h",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImage": "@PROJECT_PATH@/assets/images/lake-butler-sound-900x600-8-2000x1333.png",
+            "bgImageRadio": true,
+            "overlay": true,
+            "overlayOpacity": "0.9",
+            "overlayColor": "#ffffff",
+            "showTitle": true,
+            "showText": true
+          },
+          "title": "<span style=\"font-weight: normal;\">WELCOME TO LAKE BUTLER SOUND COMMUNITY</span><br><span style=\"font-weight: normal;\"><br></span>",
+          "text": "<span style=\"font-style: normal;\">Perfectly placed along the pristine shores of Lake Butler is one of the crown jewels of Windermrere, Florida's Lake Butler Sound homes.&nbsp;<br>Lake Butler Sound real estate is spread across 380-acres of Central Florida's most beautiful and breathtaking land. </span><br><span style=\"font-style: normal;\"><br></span><br><span style=\"font-style: normal;\">This Gorgeous, upscale, guard-gated community allows residents to enjoy a peaceful and tranquility that feels as if it is hundreds of miles away from civilization, while maintaining close proximity to all of the wonderful attractions Central Florida. Lake Butler Sound offers some of the finest Luxury homes and magnificent community amenities in the area.</span><br>"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header4",
+          "_styles": {
+            "H3": {
+              "font-size": "36px"
+            },
+            "B": {
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "header4-g",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/lake-butler-sound-900x600-2000x1333.png",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.2",
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "showText": true,
+            "showForm": false
+          },
+          "title1": "<br><b>THE GREAT EGRET BIRD IS A FREQUENT VISITOR TO THE RESERVE AT LAKE BUTLER SOUND</b>",
+          "text": "<br>FUN FACTS: They snare prey by walking slowly or standing still for long periods, waiting for an animal to come within range of their long necks and blade - like bills. <br>The deathblow is delivered with a quick thrust of the sharp bill, and the prey is swallowed whole.<br>",
+          "form": {
+            "title": "SUBSCRIBE",
+            "action": "mickhael.cannon@live.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Full Name",
+                "visible": true,
+                "customTitle": "Full Name"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email Address here"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-primary btn-block\">SUBSCRIBE</a>"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header10",
+          "_styles": {
+            "H3": {
+              "color": "#a8872b"
+            },
+            "P": {
+              "color": "#a8872b"
+            }
+          },
+          "_anchor": "header10-k",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/lake-butler-sound-900x600-9-2000x1333.png",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.9",
+            "overlayColor": "#ffffff",
+            "showMedia": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/lake-butler-sound-900x600-1-1400x933.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "<br>LUXURY LIVING",
+          "text": "<p><br></p><p><span style=\"letter-spacing: 0.5px; background-color: inherit;\">Lake Butler Sound offers residents a resort-The natural beauty of Lake Butler Sound has been meticulously preserved to provide the perfect setting for the eighty-three species of birds, eleven types of fishes, thirteen variety of aquatic plant life and forty-three classes of wildlife that call the area home.</span><br></p><br><br><ul><br></ul>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-lg btn-primary\">Purchase Now <i class=\"fa fa-shopping-basket\"></i></a>"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header4",
+          "_styles": {
+            "H3": {
+              "font-size": "36px",
+              "color": "#ffffff"
+            },
+            "P": {
+              "font-size": "16px"
+            }
+          },
+          "_anchor": "header4-l",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/lake-butler-sound-900x600-10-2000x1333.png",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.1",
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "showText": true,
+            "showForm": false
+          },
+          "title1": "<b>THE SANDHILL CRANE &amp; HIS FAMILY ARE PERMANENT RESIDENTS AT LAKE BUTLER SOUND</b>",
+          "text": "<b><br></b><br><b>FUN FACTS</b>: Throughout Asia, the crane is a symbol of happiness and eternal youth. In Japan, the crane is one of the mystical or holy creatures and symbolizes good fortune and longevity because of its fabled life span of a thousand years. ",
+          "form": {
+            "title": "SUBSCRIBE",
+            "action": "mickhael.cannon@live.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Full Name",
+                "visible": true,
+                "customTitle": "Full Name"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email Address here"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-primary btn-block\">SUBSCRIBE</a>"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header8",
+          "_styles": {
+            "H3": {
+              "color": "#a8872b",
+              "font-size": "48px"
+            },
+            "P": {
+              "color": "#a8872b"
+            },
+            "DIV": {
+              "font-size": "48px"
+            }
+          },
+          "_anchor": "header8-j",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x2995.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.8",
+            "overlayColor": "#ffffff",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showMedia": true
+          },
+          "title": "<span style=\"font-weight: normal;\">THE RESERVE AT&nbsp;</span><div><span style=\"font-weight: normal;\">LAKE BUTLER SOUND</span></div>",
+          "text": "Lake Butler Sound offers residents a resort-like setting to call home. Lake Butler Sound range from luxurious estates to palatial mansions. Covering anywhere from 3,200 - 90,000 square feet. <br><br>These custom built homes were imagined and created by an elite team of award winning builders. Expect to find the highest standards in design, quality, innovation, landscaping and technology. Every home is unique and adds to the overall character of this immaculate community. Lake Butler Sound is a homeowner's dream come true.<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-lg btn-primary\">Purchase Now <i class=\"fa fa-shopping-basket\"></i></a>",
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img hl-image",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/lake-butler-sound-900x600-2-1400x933.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          }
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box18",
+          "_styles": {
+            "SPAN": {
+              "font-size": "36px"
+            }
+          },
+          "_anchor": "msg-box18-r",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#a8872b",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515"
+          },
+          "title": "<span style=\"font-weight: normal;\">CONTACT</span><br><span style=\"font-weight: normal;\">Joy Cannon - Community Association Manager</span>",
+          "text": ""
+        },
+        {
+          "title": "CONTACT FORM",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-a",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#a8872b",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515"
+          },
+          "form": {
+            "action": "jcannon@sentrymgt.com",
+            "alerts": {
+              "success": "Thanks for filling out form! I will get back to you within 48 hours. "
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Your Name here*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email Address here*"
+              },
+              "subject": {
+                "title": "subject",
+                "visible": true,
+                "customTitle": "Subject"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message here"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-ico btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Send Message<i class=\"fa fa-paper-plane-o\"></i></a>"
+        }
+      ]
+    }
+  }
+}
